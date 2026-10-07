@@ -1,7 +1,7 @@
-def square(number):
-    """Функция, вычисляющая квадрат числа."""
-    return number * number
+def concatenate_strings(str1, str2, str3):
+    """Функция для конкатенации трёх строк."""
+    return str1 + str2 + str3
 
 # Вызов функции
-result = square(5)
-print(f"Квадрат числа 5 равен {result}")
+result = concatenate_strings("Сладкий, ", "торт", "!")
+print(result)
