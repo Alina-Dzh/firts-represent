@@ -1,7 +1,7 @@
-def square(number):
-    """Функция, вычисляющая квадрат числа."""
-    return number * number
+def cube(number):
+    """Функция, вычисляющая куб числа."""
+    return number * number * number
 
 # Вызов функции
-result = square(5)
-print(f"Квадрат числа 5 равен {result}")
+result = cube(5)
+print(f"Куб числа 5 равен {result}")
